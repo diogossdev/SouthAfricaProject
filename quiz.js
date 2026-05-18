@@ -7,7 +7,7 @@ const quizData = [
     question: "How many official languages does South Africa have?",
     options: ["9 official languages", "12 official languages"],
     correct: 1,
-    explanation: "South Africa has 12 official languages — the highest number of any country in the world. These include Zulu, Xhosa, Afrikaans, English, Northern Sotho, Tswana, Sotho, Tsonga, Swati, Venda, and Ndebele. This remarkable diversity is a direct result of its complex colonial history and the Ubuntu spirit of inclusion in the 1994 constitution."
+    explanation: "South Africa has 12 official languages — the highest number of any country in the world. These include Zulu, Xhosa, Afrikaans, English, Northern Sotho, Tswana, Sotho, Tsonga, Swati, Venda, Ndebele and South African Sign Language - SASL. This remarkable diversity is a direct result of its complex colonial history and the Ubuntu spirit of inclusion in the 1994 constitution."
   },
   {
     question: "Which European nation established the first permanent settlement at the Cape of Good Hope in 1652?",
