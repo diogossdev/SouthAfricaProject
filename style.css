@@ -272,6 +272,76 @@ section { position: relative; }
    HOME / HISTORY
 ══════════════════════════════════════════ */
 
+/* Nova estilização da bandeira */
+/* --- Bandeira Grande --- */
+.sa-flag-large {
+  width: 100%;
+  max-width: 600px; /* Ajuste este valor conforme a necessidade do seu layout */
+  border-radius: 8px; /* Bordas levemente arredondadas para um visual mais moderno */
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra suave para dar destaque */
+  margin: 0 auto; /* Centraliza a bandeira caso o container seja maior */
+}
+
+.sa-flag-large img {
+  width: 100%;
+  height: auto;
+  display: block; /* Remove o espaço fantasma na parte inferior da imagem */
+  object-fit: cover;
+}
+
+/* --- Bandeira Pequena (Nav) --- */
+.sa-flag-nano {
+  width: 30px; 
+  height: 18px;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); /* Sombra sutil para a navbar */
+}
+
+.sa-flag-nano img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover; /* Garante que a bandeira preencha o espaço perfeitamente */
+}
+
+/* O restante do seu CSS (nav-links, nav-toggle, etc) permanece igual */
+.nav-links {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.nav-link {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: color var(--transition), background var(--transition);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--gold);
+  background: rgba(255,182,18,0.08);
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 0.3rem;
+}
+/* Fim da nova estilização da bandeira */
+
+
 /* Flag + Intro Grid */
 .flag-intro-grid {
   display: grid;
